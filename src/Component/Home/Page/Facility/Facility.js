@@ -7,7 +7,7 @@ import facility4 from '../../../../images/facility/facility4.jpg'
 const Facility = () => {
     return (
         <div>
-            <h1 className="text-info my-4">Our Facility</h1>
+            <h1 className="text-dark my-5">Our Facility</h1>
             <div class="container">
                 <div class="row row-cols-2 mb-5">
                     <div class="col-lg-3 col-md-6 col-12">

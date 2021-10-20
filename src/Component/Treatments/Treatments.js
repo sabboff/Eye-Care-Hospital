@@ -9,8 +9,8 @@ const Treatments = () => {
             .then(data => setTreatments(data));
     }, [])
     return (
-        <div className="container">
-            <h1 className="text-secondary mt-4">All Treatments</h1>
+        <div className="container mb-5">
+            <h1 className="text-secondary my-5">All Treatments</h1>
             <div className="row">
                 {
                     treatments.map(treatment => <Treatment

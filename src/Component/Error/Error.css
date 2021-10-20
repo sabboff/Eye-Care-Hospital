@@ -1,8 +1,7 @@
 .error{
-    background-color: rgba(163, 163, 163, 0.549);
+    background-color: rgba(163, 163, 163, 0.185);
     padding: 200px;
     height: 100%;
-    border: 2px solid purple;
     color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 30px;

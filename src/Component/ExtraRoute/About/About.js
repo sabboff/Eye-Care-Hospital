@@ -3,8 +3,8 @@ import about from '../../../images/About/about.jpg'
 
 const About = () => {
     return (
-        <div>
-            <h1 className="text-primary mt-5">About Us</h1>
+        <div className='container'>
+            <h1 className="text-dark mt-5">About Us</h1>
             <hr className="mb-4" />
             <div className="d-flex justify-content-center">
                 <div className="col-lg-6">

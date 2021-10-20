@@ -35,11 +35,11 @@ const Login = () => {
                             <div className="login-regiater-btn mt-4">
                                 <button
 
-                                    className="btn btn-primary me-1"
+                                    className="btn btn-dark me-1"
                                 >
                                     Register
                                 </button>
-                                <button className="btn btn-success ms-1">
+                                <button className="btn btn-secondary shadow ms-1">
                                     Login
                                 </button>
                             </div>
@@ -47,7 +47,7 @@ const Login = () => {
                         <div className="login-btn mt-4">
                             <button
                                 onClick={signInUsingGoogle}
-                                className="btn btn-warning m-2"
+                                className="btn btn-secondary shadow m-2"
                             >Google sign in
                             </button>
                             <button onClick={handleGithubLogin} className="btn btn-dark m-2">
